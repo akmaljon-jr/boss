@@ -1,0 +1,546 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      padding-left: 150px;
+      padding-right: 150px;
+      background-color: white;
+      width: 100%;
+      height: 80px;
+  }
+  main {
+    padding-top: 90px;
+  }
+  a {
+    color: white;
+    background-color: black;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7px;
+  }
+  article {
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    width: 100px;
+  }
+  .yak {
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 200;
+  }
+  .du {
+    padding-bottom: 25px;
+    font-size: 20px;
+  }
+  .se {
+    width: 600px;
+  }
+  aside {
+    padding-top: 80px;
+  }
+  .chor {
+    padding: 12px 30px;
+    width: 23%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .chorr {
+    width: 80%;
+    border: 1px grey solid;
+    background-color: white;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .divInp{
+    position: relative;
+button{
+    position: absolute;
+    right:20%;
+}
+}
+  input:focus{
+      outline: 1px blue solid;
+  }
+  .panj{
+      color: grey;
+      padding-top: 25px;
+  }
+  .shash{
+      font-size: 28px;
+      color: black;
+      padding-top: 40px;
+      padding-bottom: 130px;
+      padding-left: 75px;
+  }
+  .hasht{
+      padding-top: 100px;
+      background-color: black;
+      width: 100%;
+      color: white;
+      height: 950px;
+  }
+  .haft{
+      padding-left: 150px;
+      font-size: 60PX;
+      font-weight: 100;
+  }
+  .nuh{
+      padding-left: 150px;
+      padding-right: 150px;
+  }
+  .dah{
+      width: 400px;
+      height: 350px;
+      border-radius: 30px;
+      flex-direction: column;
+      background-color: rgba(87, 87, 87, 0.323);
+      justify-content: start;
+      text-align: center;
+  }
+  .yoz{
+      width: 400px;
+  }
+  .dvoz{
+       padding-left: 150px;
+      padding-right: 150px;   
+      padding-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+  }
+  .sez{
+      padding-left: 150px;
+      padding-top: 60px;
+      font-weight: 100;
+  }
+  .cord{
+      padding-left: 150px;
+      padding-top: 60px;
+      font-weight: 50;
+  
+  }
+  .chord{
+      padding-left: 150px;
+  }
+  .ponz{
+    width: 100%;
+    background-color: rgb(227, 226, 226);
+    text-align: center;
+    padding-top: 70px;
+    height: 300px;
+}
+.shonz{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(2, 0, 0);
+    padding-bottom: 40px;
+}
+.divInt{
+    padding-left: 34%;
+    position: relative;
+button{
+    position: absolute;
+    right:33%;
+}
+}
+.hab{
+    padding: 12px 30px;
+    width: 13%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.habb{
+    width: 50%;
+    border: 1px solid grey;
+    background-color: white;
+}
+.hazh{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(2, 0, 0);
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-top: 90px;
+}
+.nuz{
+    display: flex;
+    padding-right: 150px;
+    padding-left: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bist{
+    width: 780px;
+    background-color: rgb(227, 226, 226);
+    height: 200px;
+    border-radius: 20px;
+}
+.bisty{
+    font-size: 50px;
+    font-weight: 100;
+}
+.bistd{
+    font-size: 23px;
+    font-weight: 100;
+}
+.bists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.bistp{
+    width: 40px;
+}
+.bistch{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bistsh{
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bistn{
+    width: 100%;
+    background-color: black;
+    height: 1150px;
+    color: white;
+    margin-top: 95px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.si{
+    color: white;
+    font-size: 60px;
+    font-weight: 100;
+    padding-bottom: 40px;
+    padding-top: 90px;
+}
+.sy{
+    border-bottom: 1px solid rgb(92, 91, 91);
+    font-weight: 100;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+.sd{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(2, 0, 0);
+    padding-bottom: 40px;
+    text-align: center; 
+    padding-top: 70px;
+}
+footer{
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.ss{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.sc{
+    color: rgb(157, 156, 156);
+}
+.sad{
+    width: 780px;
+    background-color: rgb(227, 226, 226);
+    height: 200px;
+    border-radius: 20px;
+}
+.sdy{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(2, 0, 0);
+    padding-bottom: 40px;
+}
+.sc:hover{
+    color: white;
+}
+.chor:hover{
+    background-color: rgb(83, 83, 83);
+}
+.chorr:hover{
+    background-color: white;
+}
+.hab:hover{
+    background-color: rgb(83, 83, 83) ;
+}
+.habb:hover{
+    background-color: rgb(253, 252, 252) ;
+}
+a:hover{
+    background-color: rgb(83, 83, 83) ;
+}
+@media (max-width:768px){
+    header{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .nuh{
+        width: 100%;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+    .shash{
+        width: 100%;
+        padding-left: 10px;
+        padding-bottom: 40px;
+    }
+    .hasht{
+        width: 100%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 1800px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .haft{
+        text-align: start;
+        padding-left: 10px;
+        width: 320px;
+        font-size: 40px;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+    }
+    .yak{
+        font-size: 34px;
+    }
+    .du{
+        font-size: 12px;
+        width: 100%;
+    }
+    .divInp{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        button{
+            position: static;
+        }
+    }
+    .chor{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .se{
+        width: 100%;
+    }
+    main{
+        padding-top: 40px;
+    }
+    img{
+        width: 30%;
+    }
+    a{
+        background-color: transparent;
+        color: black;
+        text-decoration: unset;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .dvoz{
+        display: flex;
+        flex-direction: column;
+        padding-left: 35%;
+        width: 100%;
+    }
+    .ponz{
+        padding-top: 40px;
+        height: 350px;
+    }
+    .sez{
+        padding-left: 10px;
+        font-size: 28px;
+    }
+    .cord{
+        padding-left: 10px;
+        font-size: 25px;
+    }
+    .chord{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .shonz{
+        font-size: 33px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .divInt{
+        display: flex;
+        flex-direction: column;
+        position: static;
+        padding-left: 10px;
+        padding-right: 0%10px;
+        button{
+            position: static;
+        }
+
+    }
+    .hab{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .hazh{
+        text-align: start;
+        padding-left: 20px;
+        font-size: 35px;
+    }
+    .nuz{
+        display: flex;
+        flex-direction: column;
+    }
+    .sad{
+        width: 400px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        padding-top: 50px;
+        margin-top: 40px;
+    }
+    .bist{
+        width: 400px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 50px;
+    }
+    .bists{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        align-items: flex-start;
+    }
+    .si{
+        text-align: start;
+        font-size: 35px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .sy{
+        padding-top: 10px;
+        text-align: start;
+        font-size: 25px;
+    }
+    .bistn{
+        height: 930px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bistp{
+        text-align: start;
+    }
+    .bistch{
+        padding-bottom: 20px;
+        align-items: flex-start;
+    }
+    .bisth {
+        text-align-last: left;
+    }
+    .sez{
+        font-size: 26px;
+        padding-right: 20px;
+    }
+    .sdy{
+        font-size: 63px;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+        font-weight: 100;
+        padding-right: 20px;
+    }
+    .ponz{
+        height: 390px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 400px;
+        padding-bottom: 100px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .sds{
+        width: 150px;
+        padding-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 43%;
+    }
+    .ss{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    .sc{
+        display: flex;
+        gap: 5px;
+    }
+    a:hover{
+        background-color: white;
+    }
+    .dah{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 350px;
+    }
+    .yoz{
+        width: 350px;
+    }
+    .bistd{
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+}
